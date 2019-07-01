@@ -47,3 +47,11 @@ web:
             root: "web"
             # The front-controller script to send non-static requests to.
             passthru: "/index.php"
+
+source:
+    operations:
+        upstream-update:
+            command: |
+                git remote add upstream https://github.com/platformsh/op-test-dummy.git
+                git fetch --all
+                git merge upstream/master
