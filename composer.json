@@ -5,7 +5,8 @@
     "type" : "project",
     "require": {
         "php": ">7.2",
-        "platformsh/config-reader": "~2.0"
+        "platformsh/config-reader": "~2.0",
+        "guzzlehttp/guzzle": "^6.3"
     },
     "autoload": {
         "psr-4": {
