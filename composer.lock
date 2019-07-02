@@ -4,8 +4,46 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "140d3d615339595be96e7065797c4afc",
+    "content-hash": "09872a5a1fd02ff0857c58bee74affe5",
     "packages": [
+        {
+            "name": "crell/transformer",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Crell/Transformer.git",
+                "reference": "47cbe3aa872091a1afe5557499468d1a2119e05b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Crell/Transformer/zipball/47cbe3aa872091a1afe5557499468d1a2119e05b",
+                "reference": "47cbe3aa872091a1afe5557499468d1a2119e05b",
+                "shasum": ""
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "phpunit/phpunit": "~4.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Crell\\Transformer\\": "src/",
+                    "Crell\\Transformer\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Larry Garfield",
+                    "email": "larry@garfieldtech.com"
+                }
+            ],
+            "description": "A simple object transformation library",
+            "time": "2015-01-22T21:09:50+00:00"
+        },
         {
             "name": "guzzlehttp/guzzle",
             "version": "6.3.3",
